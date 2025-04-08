@@ -213,9 +213,9 @@
   </symbol>
   <symbol id="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51">
     <defs></defs>
-    <circle cx="25.5" cy="25.5" r="25.5"></circle>
-    <rect x="24.4" y="27.9" width="1.6" height="15.24" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"></rect>
-    <rect x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)"></rect>
+    <circle cx="25.5" cy="25.5" r="25.5" fill="#333333"></circle>
+    <rect x="24.4" y="27.9" width="1.6" height="15.24" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)" fill="currentColor"></rect>
+    <rect x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)" fill="currentColor"></rect>
   </symbol>
   <symbol version="1.1" id="clock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 501.656 501.656">
     <g>
@@ -225,7 +225,7 @@
       </g>
     </g>
     <g>
-      <g fill="currentColor">
+      <g>
         <path d="M444.168,274.344c-3.124-3.123-8.188-3.123-11.312,0l-72,72l11.312,11.312l65.712-65.712
 			c10.828,14.37,8.629,34.68-5.024,46.4L339.2,432H174.512c-2.122,0-4.156,0.844-5.656,2.344l-56,56l11.312,11.312L177.824,448
 			h164.688c2.122,0,4.156-0.844,5.656-2.344l96-96C473.96,319.864,457.192,287.368,444.168,274.344z"></path>
@@ -271,7 +271,7 @@
     <g></g>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="computer">
-    <g id="Computer-Engineer-Coding-Programing-Configulation">
+    <g fill="currentColor" id="Computer-Engineer-Coding-Programing-Configulation">
       <path d="m13.293 14.293-3 3a1 1 0 0 0 0 1.414l3 3 1.414-1.414-2.293-2.293 2.293-2.293z"></path>
       <path d="m14.228 17h8.544v2h-8.544z" transform="matrix(.351 -.936 .936 .351 -4.85 29.002)"></path>
       <path d="m23.707 21.707 3-3a1 1 0 0 0 0-1.414l-3-3-1.414 1.414 2.293 2.293-2.293 2.293z"></path>
