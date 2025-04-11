@@ -155,6 +155,10 @@ a {
     margin-bottom: 1rem;
 }
 
+.list.block-domain__prices li {
+    margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 1024px) {
     .list--tick .list__item {
         padding-left: 0;
@@ -294,6 +298,7 @@ a {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn {
@@ -754,7 +759,7 @@ a {
 .block-domain__prices {
     color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: (2, 6fr);
     font-size: 2rem;
     font-weight: 600;
@@ -826,7 +831,7 @@ a {
 .footer {
     background: #232323;
     padding-top: 10rem;
-  }
+}
 
 .footer a {
     color: #777;
@@ -895,4 +900,9 @@ a {
     .footer__heading {
       font-size: 1.6rem;
     }
+}
+
+/* Sign-up Callout */
+.callout-signup {
+    transform: translateY(5rem);
 }
