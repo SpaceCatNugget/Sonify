@@ -760,7 +760,7 @@ a {
     color: var(--color-headings);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: (2, 6fr);
+    grid-template-rows: repeat(2, 6fr);
     font-size: 2rem;
     font-weight: 600;
     justify-items: center;
